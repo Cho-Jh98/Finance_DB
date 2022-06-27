@@ -6,10 +6,9 @@ port = 3306
 user = 'user'
 password = "your_password"
 db = 'finance'
-charset = 'utf8'
 
 # connect
-conn = pymysql.connect(host='localhost', port=3306, user='user', password='New^york6', db='database1', charset='utf8')
+conn = pymysql.connect(host=host, port=port, user=user, password=password, db=db, charset='utf8')
 
 # cursor
 cursor = conn.cursor()
