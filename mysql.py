@@ -1,11 +1,11 @@
 import pymysql
 
 # DB information
-host = 'localhost'
+host = "host ip address or domain"
 port = 3306
 user = 'user'
-password = 'New^york6'
-db = 'database1'
+password = "your_password"
+db = 'finance'
 charset = 'utf8'
 
 # connect
